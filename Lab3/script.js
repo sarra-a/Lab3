@@ -1,3 +1,4 @@
+
 function validateForm(){
     const username = document.getElementById("username").value;
     const email = document.getElementById("email").value;
@@ -32,7 +33,18 @@ function validateForm(){
     return true;
 }
 
-    const products = ["Eyeshadow, Lipstick, Perfume, Skincare, Haircare, Body Cream, Hairclips, Plusies, Homedecor"];
+const products = [
+    'Eyeshadow',
+    'Lipstick',
+    'Perfume',
+    'Skincare',
+    'Haircare',
+    'Bodycream',
+    'Hairclips',
+    'Plushies',
+    'Homedecore',
+    'Funkopops',
+];
 
     const searchField = document.getElementById("search");
     const productList = document.getElementById("products");
