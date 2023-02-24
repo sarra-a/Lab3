@@ -32,7 +32,7 @@ function validateForm(){
     return true;
 }
 
-    const products = ["T-shirt", "Bra", "Pants", "Shorts", "Underwear", "Headband", "Earrings", "Hat", "Sneakers", "Heels"];
+    const products = ["Eyeshadow, Lipstick, Perfume, Skincare, Haircare, Body Cream, Hairclips, Plusies, Homedecor"];
 
     const searchField = document.getElementById("search");
     const productList = document.getElementById("products");
